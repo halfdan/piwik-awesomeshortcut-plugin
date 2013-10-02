@@ -1,0 +1,18 @@
+{
+    "name": "AwesomeShortcuts",
+    "description": "This plugin adds keyboard shortcuts to the Piwik UI.",
+    "version": "0.9.0",
+    "keywords": ["shotcuts", "keyboard"],
+    "homepage": "http://github.com/halfdan/piwik-awesomeshortcuts-plugin",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Fabian Becker",
+            "email": "halfdan@xnorfz.de",
+            "homepage": "http://geekproject.eu"
+        }
+    ],
+    "require": {
+        "piwik": ">=2.0.0"
+    }
+}
