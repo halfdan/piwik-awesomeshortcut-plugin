@@ -3,7 +3,7 @@
 namespace Piwik\Plugins\AwesomeShortcuts;
 
 class API {
-    static private $instance = null;
+    private static $instance = null;
 
     /**
      * @return \Piwik\Plugins\AwesomeShortcuts\API
