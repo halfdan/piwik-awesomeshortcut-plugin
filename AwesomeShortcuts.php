@@ -10,7 +10,7 @@ class AwesomeShortcuts extends \Piwik\Plugin {
     {
         return array(
             'AssetManager.getJavaScriptFiles'  => 'getJsFiles',
-            'AssetManager.getStylesheetFiles'  => 'getCssFiles',
+            'AssetManager.getStylesheetFiles'  => 'getCssFiles'
         );
     }
 
