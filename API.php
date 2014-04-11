@@ -2,19 +2,7 @@
 
 namespace Piwik\Plugins\AwesomeShortcuts;
 
-class API {
-    private static $instance = null;
-
-    /**
-     * @return \Piwik\Plugins\AwesomeShortcuts\API
-     */
-    public static function getInstance()
-    {
-        if (self::$instance == null) {
-            self::$instance = new self;
-        }
-        return self::$instance;
-    }
+class API extends \Piwik\Plugin\API {
 
     public function getMenu() {
         $menu = \Piwik\Menu\Main::getInstance()->get();
